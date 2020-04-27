@@ -1,0 +1,36 @@
+﻿Сборка начата 27.04.2020 15:32:05.
+     1>Проект "D:\Projects\OOP_Kurs\OOP_Kurs\OOP_Kurs.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Projects\SFML-2.5.1_2013_x86\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D SFML_DYNAMIC /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp Map.cpp Player.cpp
+         main.cpp
+     1>main.cpp(12): warning C4101: Key: неиспользованная локальная переменная
+         Map.cpp
+     1>Map.cpp(47): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>Map.cpp(52): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>Map.cpp(57): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>Map.cpp(62): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>Map.cpp(67): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+         Player.cpp
+     1>Player.cpp(179): warning C4244: =: преобразование "const float" в "int", возможна потеря данных
+     1>Player.cpp(180): warning C4244: =: преобразование "const float" в "int", возможна потеря данных
+     1>Player.cpp(183): warning C4244: =: преобразование "const float" в "int", возможна потеря данных
+     1>Player.cpp(192): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>Player.cpp(197): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>Player.cpp(218): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>Player.cpp(223): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>Player.cpp(240): warning C4244: =: преобразование "const float" в "int", возможна потеря данных
+     1>Player.cpp(242): warning C4244: =: преобразование "const float" в "int", возможна потеря данных
+     1>Player.cpp(249): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>Player.cpp(250): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\OOP_Kurs\Release\OOP_Kurs.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\Projects\SFML-2.5.1_2013_x86\lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-audio-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Projects\OOP_Kurs\Release\OOP_Kurs.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Projects\OOP_Kurs\Release\OOP_Kurs.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         Release\Map.obj
+         Release\Player.obj
+         Создание кода
+         Создание кода завершено
+         OOP_Kurs.vcxproj -> D:\Projects\OOP_Kurs\Release\OOP_Kurs.exe
+     1>Сборка проекта "D:\Projects\OOP_Kurs\OOP_Kurs\OOP_Kurs.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:04.63

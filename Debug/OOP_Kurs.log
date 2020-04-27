@@ -1,0 +1,26 @@
+﻿Сборка начата 21.04.2020 21:04:32.
+     1>Проект "D:\Projects\OOP_Kurs\OOP_Kurs\OOP_Kurs.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Projects\SFML-2.5.1_2013_x86\include" /ZI /nologo /W3 /WX- /Od /Oy- /D SFML_DYNAMIC /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Player.cpp
+         Player.cpp
+     1>d:\projects\oop_kurs\oop_kurs\player.cpp(179): warning C4244: =: преобразование "const float" в "int", возможна потеря данных
+     1>d:\projects\oop_kurs\oop_kurs\player.cpp(180): warning C4244: =: преобразование "const float" в "int", возможна потеря данных
+     1>d:\projects\oop_kurs\oop_kurs\player.cpp(183): warning C4244: =: преобразование "const float" в "int", возможна потеря данных
+     1>d:\projects\oop_kurs\oop_kurs\player.cpp(192): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\projects\oop_kurs\oop_kurs\player.cpp(197): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\projects\oop_kurs\oop_kurs\player.cpp(218): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\projects\oop_kurs\oop_kurs\player.cpp(223): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\projects\oop_kurs\oop_kurs\player.cpp(240): warning C4244: =: преобразование "const float" в "int", возможна потеря данных
+     1>d:\projects\oop_kurs\oop_kurs\player.cpp(242): warning C4244: =: преобразование "const float" в "int", возможна потеря данных
+     1>d:\projects\oop_kurs\oop_kurs\player.cpp(249): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\projects\oop_kurs\oop_kurs\player.cpp(250): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\OOP_Kurs\Debug\OOP_Kurs.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Projects\SFML-2.5.1_2013_x86\lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-audio-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Projects\OOP_Kurs\Debug\OOP_Kurs.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Projects\OOP_Kurs\Debug\OOP_Kurs.lib" /MACHINE:X86 Debug\main.obj
+         Debug\Map.obj
+         Debug\Player.obj
+         OOP_Kurs.vcxproj -> D:\Projects\OOP_Kurs\Debug\OOP_Kurs.exe
+     1>Сборка проекта "D:\Projects\OOP_Kurs\OOP_Kurs\OOP_Kurs.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:01.55
