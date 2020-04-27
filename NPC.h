@@ -1,12 +1,12 @@
 #include <SFML\Graphics.hpp>
-class Alive
+class NPC
 {
 private:
 	int Health;
 	float Speed;
 	sf::Texture Texturka;
-	sf::RectangleShape Rectangle;
+	sf::RectangleShape Collision;
 public:
-	Alive();
-	virtual ~Alive();
+	NPC();
+	virtual ~NPC();
 };
