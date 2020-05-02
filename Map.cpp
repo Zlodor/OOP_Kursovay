@@ -7,21 +7,21 @@ Map::Map()
 	texture.loadFromFile("Map/tile.png");
 	std::string tile2[17] =
 	{
-		"pppppppppppppppppppppppppppp",
-		"                            ",
-		"                            ",
-		"                            ",
-		"                            ",
-		"                            ",
-		"                            ",
-		"                            ",
-		"                            ",
-		"                            ",
-		"                            ",
-		"                            ",
-		"                     wwwwwww",
-		"ww                wwww      ",
-		"wwww              w         ",
+		"w                          w",
+		"w                          w",
+		"w                          w",
+		"w                          w",
+		"w                          w",
+		"w                          w",
+		"w                          w",
+		"w                          w",
+		"w                          w",
+		"w                          w",
+		"w                          w",
+		"w                          w",
+		"w                          w",
+		"w                 wwww     w",
+		"w                 wwww     w",
 		"gggggggggggggggggggggggggggg",
 		"                            "
 	};
@@ -63,9 +63,9 @@ void Map::Draw(RenderWindow &window)
 				window.draw(rec);
 				break;
 			default:
-				rec.setTextureRect(IntRect(470, 55, 30, 30));
-				rec.setPosition(j * 30, i * 30);
-				window.draw(rec);
+				//rec.setTextureRect(IntRect(470, 55, 30, 30));
+				//rec.setPosition(j * 30, i * 30);
+				//window.draw(rec);
 				break;
 			}
 		}

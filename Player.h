@@ -1,3 +1,4 @@
+#pragma once
 #include <SFML\Graphics.hpp>
 #include "Map.h"
 enum Condition  { idle, run, jump , attack,fall};
